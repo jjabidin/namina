@@ -1,0 +1,185 @@
+Time : 21:04:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+Raw SQL : select * from trademark  where name LIKE '%toyota%'
+
+Time : 21:03:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+Raw SQL : select * from trademark  where name LIKE '%TOYOTA%'
+
+Time : 15:19:33
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'trademark.name' in 'where clause'
+Raw SQL : SELECT * 
+        FROM varian  
+            RIGHT JOIN brand ON varian.id_brand = brand.id_brand  
+            RIGHT JOIN trademark ON brand.id_trademark = trademark.id_trademark WHERE trademark.name LIKE '%ava%' 
+            OR brand.brand_name LIKE '%ava%' 
+            OR varian.name LIKE '%ava%'
+
+Time : 15:19:33
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'trademark.name' in 'where clause'
+Raw SQL : SELECT * 
+        FROM varian  
+            RIGHT JOIN brand ON varian.id_brand = brand.id_brand  
+            RIGHT JOIN trademark ON brand.id_trademark = trademark.id_trademark WHERE trademark.name LIKE '%ava%' 
+            OR brand.brand_name LIKE '%ava%' 
+            OR varian.name LIKE '%ava%'
+
+Time : 15:19:33
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'trademark.name' in 'where clause'
+Raw SQL : SELECT * 
+        FROM varian  
+            RIGHT JOIN brand ON varian.id_brand = brand.id_brand  
+            RIGHT JOIN trademark ON brand.id_trademark = trademark.id_trademark WHERE trademark.name LIKE '%a%' 
+            OR brand.brand_name LIKE '%a%' 
+            OR varian.name LIKE '%a%'
+
+Time : 13:56:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%toyota%' 
+            OR 'brand'.'brand_name' LIKE '%toyota%' 
+  ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%toyota%' 
+            OR 'brand'.'brand_name' LIKE '%toyota%' 
+            OR 'varian'.'name' LIKE '%toyota%'
+
+Time : 13:56:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%toyot%' 
+            OR 'brand'.'brand_name' LIKE '%toyot%' 
+    ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%toyot%' 
+            OR 'brand'.'brand_name' LIKE '%toyot%' 
+            OR 'varian'.'name' LIKE '%toyot%'
+
+Time : 13:56:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%toyo%' 
+            OR 'brand'.'brand_name' LIKE '%toyo%' 
+      ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%toyo%' 
+            OR 'brand'.'brand_name' LIKE '%toyo%' 
+            OR 'varian'.'name' LIKE '%toyo%'
+
+Time : 13:56:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%toy%' 
+            OR 'brand'.'brand_name' LIKE '%toy%' 
+        ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%toy%' 
+            OR 'brand'.'brand_name' LIKE '%toy%' 
+            OR 'varian'.'name' LIKE '%toy%'
+
+Time : 13:56:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%to%' 
+            OR 'brand'.'brand_name' LIKE '%to%' 
+          ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%to%' 
+            OR 'brand'.'brand_name' LIKE '%to%' 
+            OR 'varian'.'name' LIKE '%to%'
+
+Time : 13:56:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%t%' 
+            OR 'brand'.'brand_name' LIKE '%t%' 
+            ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%t%' 
+            OR 'brand'.'brand_name' LIKE '%t%' 
+            OR 'varian'.'name' LIKE '%t%'
+
+Time : 13:56:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%%' 
+            OR 'brand'.'brand_name' LIKE '%%' 
+            OR' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%%' 
+            OR 'brand'.'brand_name' LIKE '%%' 
+            OR 'varian'.'name' LIKE '%%'
+
+Time : 13:56:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%a%' 
+            OR 'brand'.'brand_name' LIKE '%a%' 
+            ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%a%' 
+            OR 'brand'.'brand_name' LIKE '%a%' 
+            OR 'varian'.'name' LIKE '%a%'
+
+Time : 13:56:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%av%' 
+            OR 'brand'.'brand_name' LIKE '%av%' 
+          ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%av%' 
+            OR 'brand'.'brand_name' LIKE '%av%' 
+            OR 'varian'.'name' LIKE '%av%'
+
+Time : 13:56:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%ava%' 
+            OR 'brand'.'brand_name' LIKE '%ava%' 
+        ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%ava%' 
+            OR 'brand'.'brand_name' LIKE '%ava%' 
+            OR 'varian'.'name' LIKE '%ava%'
+
+Time : 13:56:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%ava%' 
+            OR 'brand'.'brand_name' LIKE '%ava%' 
+        ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%ava%' 
+            OR 'brand'.'brand_name' LIKE '%ava%' 
+            OR 'varian'.'name' LIKE '%ava%'
+
+Time : 13:55:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'name' LIKE '%a%' 
+            OR 'brand'.'brand_name' LIKE '%a%' 
+            ' at line 4
+Raw SQL : SELECT * 
+        FROM `varian`  
+            RIGHT JOIN `brand` ON `varian`.`id_brand` = `brand`.`id_brand`  
+            RIGHT JOIN `trademark` ON `brand`.`id_trademark` = `trademark`.`id_trademark` WHERE 'trademark'.'name' LIKE '%a%' 
+            OR 'brand'.'brand_name' LIKE '%a%' 
+            OR 'varian'.'name' LIKE '%a%'
+
+Time : 13:27:35
+SQLSTATE[HY000] [1049] Unknown database 'cara'
+
+Time : 10:39:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'car.users' doesn't exist
+Raw SQL : SELECT * FROM users WHERE name LIKE '%fort%'
+
+Time : 10:39:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'car.users' doesn't exist
+Raw SQL : SELECT * FROM users WHERE name LIKE '%for%'
+
+Time : 10:39:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'car.users' doesn't exist
+Raw SQL : SELECT * FROM users WHERE name LIKE '%fo%'
+
+Time : 10:38:58
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'car.users' doesn't exist
+Raw SQL : SELECT * FROM users WHERE name LIKE '%f%'
